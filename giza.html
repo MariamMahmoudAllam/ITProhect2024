@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> giza governorate</title>
+    <link rel="stylesheet" href="css/giza.css" /> 
+    <button id="mode-toggle">Toggle Dark/Light Mode</button>
+    <script>
+        function side_open() {
+            document.getElementById("mySidebar").style.display = "block";
+          }
+          
+          function side_close() {
+            document.getElementById("mySidebar").style.display = "none";
+          }
+        const modeToggle = document.getElementById('mode-toggle');
+        const body = document.body;
+
+        modeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+        var touristPlaces = [
+            {
+                name: "giza pyramids",
+                description: "The Three Pyramids are among the largest and most famous in Egypt",
+                location : "giza,egypt"
+            },
+            {
+                name: "museum_al_tayaran",
+                description: "It includes a large number of historical aircraft and air exhibits",
+                location : "giza,egypt"
+            },
+            {
+                name: "giza zoo",
+                description: "A variety of pets and it is considered one of the oldest zoos in the world",
+                location : "giza,egypt"
+            }
+        ];
+        
+
+        function displayTouristPlaces() {
+            var placesContainer = document.getElementById("places-container");
+            touristPlaces.forEach(function(place) {
+                var placeElement = document.createElement("div");
+                placeElement.innerHTML = "<h2>" + place.name + "</h2><p>" + place.description + "</p><p><strong>location:</strong> " + place.location + "</p>";
+                placesContainer.appendChild(placeElement);
+            });
+        }
+        
+        window.onload = function() {
+            displayTouristPlaces();
+        };
+    </script>
+</head>
+<body>
+    <main>
+        <div class="import">
+            <div class="search">
+              <span class="search-icon material-symbols-outlin">search</span>
+              <input class="search-input" type="search" placeholder="search">
+          </div>
+            <a href="home.html" target="_parent" id="home">Travel</a>
+            <a href="services.html" target="_parent" id="linkLog">Log in & Sign up</a>
+           <div class="sidebar1" style="display: none;" id="mySidebar">
+            <button onclick="side_close()" class="close">close &times;</button>
+            <header id="enjoy">Enjoy</header>
+            <ul id="side">
+              <li id="link"><a href="alex.html" target="_parent" id="boors">Alexandria</a> </li>
+              <li id="link"><a href="cairo.html" target="_parent" id="boors">Cairo</a> </li>
+              <li id="link"><a href="giza.html" target="_parent" id="boors">Giza</a> </li>
+              <li id="link"><a href="gouna.html" target="_parent" id="boors">Gouna</a> </li>
+              <li id="link"><a href="luxor.html" target="_parent" id="boors">Luxor & Aswan</a> </li>
+            </ul>
+           </div>
+           <div class="sidebar2l">
+            <button class="open" onclick="side_open()">☰</button>
+           </div>
+          </div>
+          <h1>Giza</h1>
+        <video class="giza" controls loop >
+            <source src="audios/WhatsApp Video 2024-04-29 at 10.55.30 PM.mp4" type="video/mp4">
+        </video>
+        <h2 class="iuu">giza</h2>
+        <p class="kuu" >Giza is the capital of the governorate of Giza. Together with Cairo and Shubra El Kheima, it forms Greater Cairo. The city of Giza is located in northern Egypt, between the Nile River to the east and the Western Desert to the west. It is adjacent to Cairo, the capital of Egypt. Giza is one of the major cities in terms of area and population. It is one of the ancient cities that was established at the time of the Muslims' conquest of Egypt. It is located in Giza, as important as the Pyramids of Giza, the Grand Egyptian Museum, and the Sphinx.</p>
+        <h2 class="try">giza places</h2 >
+        <div id="places-container"></div>
+        <div>
+            <table id="xytr" border="1">
+                <thead>
+                <tr>
+                    <th>tourist place</th>
+                    <th>description</th>
+                    <th>tickets for Egyptians</th>
+                    <th>tickets for foreigners</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td> giza desert</td>
+                    <td>It is located on the western side of the Nile and is a site of great historical importance</td>
+                    <td>150</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>koutoubia museum</td>
+                    <td>It is considered one of the most important museums in Egypt and contains many important artifacts</td>
+                    <td>10</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>museum of egyption civilization</td>
+                    <td>It displays many artifacts dating back to different Egyptian civilizations</td>
+                    <td>75</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>salah al-den al-ayobi's castle</td>
+                    <td>It is one of the most important historical landmarks in Giza and is located in the center of the old city</td>
+                    <td>10</td>
+                    <td>180 </td>
+                </tr>
+                <tr>
+                    <td>orman park</td>
+                    <td>It is one of the most beautiful gardens and is characterized by a diversity of plants and trees</td>
+                     <td>5</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>prince muhammed ali palace</td>
+                    <td>It is considered one of the important historical palaces and provides the visitor with an opportunity to discover the modern history of Egypt</td>
+                    <td>20</td>
+                    <td>120</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <h2 class="buu">The most important thing that Giza is famous for</h2>
+        <div class="yuu">
+            <p>Giza is considered one of the largest tourist trips in Egypt as it is rich in Egyptian antiquities, such as the Giza Pyramids and the Great Sphinx. Hotel options and bazaars. The Dinosaur Park, the first incubator park in Africa, is located in Giza.</p>
+            <img src="images/WhatsApp Image 2024-04-30 at 10.53.36 AM (1).jpeg">
+            <p>The district is distinguished by the spread of effective monuments, the most important of which are the Pyramids of Giza, the Sphinx, the Sound and Light Project, the Saqqara Pyramid, and the Saqqara funerary facilities.</p>
+            </div>
+            <h2 class="huu">History of Giza</h2>
+            <div class="history">
+        <p>1- Giza Governorate is one of the governorates of Egypt and its capital is the city of Giza, which is designated as the year 20 AH with the Islamic conquest of Egypt.
+
+        2- Giza Governorate is one of the ancient cities that was founded at the time of the Muslim conquest of Egypt.
+        
+        3- The history of Giza goes back to the oldest times, as it contains the remains of the city of Memphis or Memphis, the first capital to rule.
+        
+        4- It was the capital of Egypt during the era of the first pharaohs, and children built a pyramid there.
+        
+        5- After moving the capital to Thebes (Luxor) and even the axis of convergence between northern Egypt, he targeted it.
+        
+        6- Giza had a position bec its proximity to the capitals of  Egypt.Let's know about giza more <a id="more" href="giza2.html">Attraction</a></p>
+        
+        <img src="images/WhatsApp Image 2024-04-30 at 10.53.36 AM (4).jpeg">
+            </div>
+            <footer id="footer" class="footer">
+                <a class="foot" href="home.html" id="logo">Travel</a>
+                <h3 class="footh">Explore Other Cities within Egypt:</h3>
+                <ul>
+                    
+                    <a href="cairo.html">Cairo</a>
+                    <a href="giza.html">Giza</a>
+                    <a href="alex.html">Alexandria</a>
+                    <a href="gouna.html">Gouna</a>
+                    <a href="luxor.html">Luxor & Aswan</a>
+                </ul>
+            </footer>
+        </main>
+</body>

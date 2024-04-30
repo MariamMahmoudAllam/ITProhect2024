@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+   <link rel="stylesheet" href="css/alex.css">
+    <title>Alexandria</title>
+</head>
+<body>
+    <div class="import">
+        <div class="search">
+          <span class="search-icon material-symbols-outlin">search</span>
+          <input class="search-input" type="search" placeholder="search">
+      </div>
+        <a href="home.html" target="_parent" id="home">Travel</a>
+        <a href="services.html" target="_parent" id="linkLog">Log in & Sign up</a>
+       <div class="sidebar1" style="display: none;" id="mySidebar">
+        <button onclick="side_close()" class="close">close &times;</button>
+        <header id="enjoy">Enjoy</header>
+        <ul id="side">
+          <li id="link"><a href="alex.html" target="_parent" id="boors">Alexandria</a> </li>
+          <li id="link"><a href="cairo.html" target="_parent" id="boors">Cairo</a> </li>
+          <li id="link"><a href="giza.html" target="_parent" id="boors">Giza</a> </li>
+          <li id="link"><a href="gouna.html" target="_parent" id="boors">Gouna</a> </li>
+          <li id="link"><a href="luxor.html" target="_parent" id="boors">Luxor & Aswan</a> </li>
+        </ul>
+       </div>
+       <div class="sidebar2l">
+        <button class="open" onclick="side_open()">☰</button>
+       </div>
+       <img src="images/WhatsApp Image 2024-04-29 at 4.48.28 PM.jpeg" id="icon">
+      </div>
+    <h1>ALEXANDRIA</h1>
+    <h1 class="second">ALEXANDRIA</h1>
+    <div class="text-container"> 
+        <p class="para1"> Alexandria is the second largest<br> city in Egypt and the largest <br>
+            city on the Mediterranean coast.<br> It lies at the western edge of the<br> Nile River delta.
+        </p>  
+        <div class="square"> 
+            <img src="images/WhatsApp Image 2024-04-29 at 4.54.40 PM.jpeg" alt="alex photo" width="100%" height="700px" class="img1">
+        </div>  
+        <div class="square1">
+            <p class="para2"> Founded in c.331 BC by Alexander the Great,
+                Alexandria grew rapidly and became a major centre 
+                of Hellenic civilization, eventually replacing Memphis,
+                in present-day Greater Cairo, as Egypt's capital.
+                Called the "Bride of the Mediterranean" internationally,
+                Alexandria is a popular tourist destination and an important
+                industrial centre due to its natural gas and oil pipelines from Suez
+            </p>
+        </div>
+        <div>  <img src="images/WhatsApp Image 2024-04-29 at 4.54.42 PM.jpeg" alt="Alexandria img" class="img2">
+            <div class="square2">
+            <img src="images/WhatsApp Image 2024-04-29 at 4.54.42 PM (1).jpeg" alt="Alexandria img" class="img3" title="img3">
+            <img src="images/WhatsApp Image 2024-04-29 at 4.54.42 PM (2).jpeg" alt="Alexandria img" class="img4" title="img4">
+            <img src="images/WhatsApp Image 2024-04-29 at 4.54.43 PM.jpeg" alt="Alexandria img" class="img5" title="img5">
+            <div class="square3"> <p class="para3">
+                The city was founded originally in the vicinity of an Egyptian settlement
+                named Rhacotis (that became the Egyptian quarter of the city).
+                Alexandria grew rapidly, becoming a major centre of Hellenic civilisation
+                and replacing Memphis as Egypt's capital during the reign of the
+                Ptolemaic pharaohs who succeeded Alexander. It retained this status for
+                almost a millennium, through the period of Roman and Eastern Roman rule
+                until the Muslim conquest of Egypt in 641 AD, when a new capital was
+                founded at Fustat (later absorbed into Cairo).
+            </p></div>
+            </div>
+        </div>
+    </div>
+    <div class="square4">
+            <video width="100%" height="600px" controls autoplay muted loop> 
+            <source src="audios/WhatsApp Video 2024-04-29 at 11.49.48 PM.mp4"
+            type="video/mp4"></video> 
+    </div>
+    <div class="square5">
+        <img src="images/WhatsApp Image 2024-04-29 at 4.54.44 PM.jpeg" alt="Alexandria img" class="img6">
+        <p class="para4">Alexandria was best known for the Lighthouse of Alexandria (Pharos), one of the Seven Wonders of
+            the Ancient World; its Great Library, the largest in the ancient world; and the Catacombs of
+            Kom El Shoqafa, one of the Seven Wonders of the Middle Ages. Alexandria was the intellectual
+            and cultural centre of the ancient Mediterranean for much of the Hellenistic age and late antiquity.
+            It was at one time the largest city in the ancient world before being eventually overtaken by Rome.</p>
+        <div class="square6"> <p class="para5">The city was a major centre of early Christianity and was the centre of the
+                            Patriarchate of Alexandria, which was one of the major centres of Christianity in the Eastern Roman Empire.
+                            In the modern world, the Coptic Orthodox Church and the Greek Orthodox Church of Alexandria both lay claim
+                            to this ancient heritage. By 641, the city had already been largely plundered and lost its significance
+                            before re-emerging in the modern era. From the late 18th century, Alexandria became a major centre
+                            of the international shipping industry and one of the most important trading centres in the world, both
+                            because it profited from the easy overland connection between the Mediterranean and Red Seas and the 
+                            lucrative trade in Egyptian cotton</p>
+        </div>
+        <img src="images/WhatsApp Image 2024-04-29 at 4.54.44 PM (1).jpeg" alt="Alexander" class="img7">
+    </div>
+    <a href="alex2.html">
+        <img src="images/WhatsApp Image 2024-04-29 at 4.54.44 PM (2).jpeg" alt="alex" class="img8"> 
+    </a>
+    <h2 class="last-header">places to visit in Alexanderia</h2>
+    <footer id="footer" class="footer">
+        <a class="foot" href="home.html" id="logo">Travel</a>
+        <h3 class="footh">Explore Other Cities within Egypt:</h3>
+        <ul>
+            <a href="cairo.html">Cairo</a>
+            <a href="giza.html">Giza</a>
+            <a href="alex.html">Alexandria</a>
+            <a href="gouna.html">Gouna</a>
+            <a href="luxor.html">Luxor & Aswan</a>
+        </ul> 
+      </footer>
+    
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function()
+        {
+            document.body.classList.toggle("dark-theme");
+        }
+
+        function side_open() {
+          document.getElementById("mySidebar").style.display = "block";
+        }
+        
+        function side_close() {
+          document.getElementById("mySidebar").style.display = "none";
+        }
+        </script>    
+</body>

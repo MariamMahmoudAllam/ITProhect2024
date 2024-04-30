@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/gouna2.css">
+<script>
+    function side_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    
+    function side_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    var icon = document.getElementById("icon");
+      icon.onclick = function(){
+          document.body.classList.toggle("dark-theme");
+      }
+    </script>
+</head>
+<body>
+    <div class="import">
+        <div class="search">
+          <span class="search-icon material-symbols-outlin">search</span>
+          <input class="search-input" type="search" placeholder="search">
+      </div>
+        <a href="home.html" target="_parent" id="home">Travel</a>
+        <a href="services.html" target="_parent" id="linkLog">Log in & Sign up</a>
+       <div class="sidebar1" style="display: none;" id="mySidebar">
+        <button onclick="side_close()" class="close">close &times;</button>
+        <header id="enjoy">Enjoy</header>
+        <ul id="side">
+          <li id="link"><a href="alex.html" target="_parent" id="boors">Alexandria</a> </li>
+          <li id="link"><a href="cairo.html" target="_parent" id="boors">Cairo</a> </li>
+          <li id="link"><a href="giza.html" target="_parent" id="boors">Giza</a> </li>
+          <li id="link"><a href="gouna.html" target="_parent" id="boors">Gouna</a> </li>
+          <li id="link"><a href="luxor.html" target="_parent" id="boors">Luxor & Aswan</a> </li>
+        </ul>
+       </div>
+       <div class="sidebar2l">
+        <button class="open" onclick="side_open()">☰</button>
+       </div>
+      </div>
+<h1>EL GOUNA</h1>
+<video width="100%" controls>
+    <source src="audios/WhatsApp Video 2024-04-29 at 10.11.09 PM.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iusto illo nobis adipisci maxime debitis doloremque excepturi, laudantium inventore est, perferendis aut, obcaecati tenetur cupiditate quisquam dolorum blanditiis dignissimos voluptates.</h2>
+<h3>I will suggest to you in this table places depends on your need : </h3>
+  <table>
+    <thead>
+<tr>
+    <th>Need</th>
+    <th style="width:70%"> Recommendations</th>
+    </tr>
+</thead>
+    <tr>
+<td>Eating</td>
+<td>The Red Sea Restaurant , Fiorntina</td>
+</tr>
+<tr>
+<td>Walking</td>
+<td>The voly park , White corner</td>
+</tr>
+<tr>
+<td>Playing</td>
+<td>The Golf Club</td>
+</tr>
+</tbody>
+</table>
+<h5>Some of the opinions about EL GOUNA : </h5>
+<h6><u>First one said :</u> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet officia eligendi cupiditate in quae, explicabo adipisci dolorum ipsam quasi molestiae.
+    <br><u>Second one said :</u> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero vel eaque nesciunt cupiditate explicabo natus, nisi sequi deserunt cumque, nihil odio nam sed accusamus quae quo adipisci eos? Numquam, ratione!
+    <br><u> Third one said :</u> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis soluta dolores sunt aliquid? Ex eum ab, voluptatem numquam suscipit hic voluptate quam. Voluptatum deleniti maiores similique perferendis eius earum repudiandae?
+</h6>
+<footer id="footer" class="footer">
+    <a class="foot" href="home.html" id="logo">Travel</a>
+    <h3 class="footh">Explore Other Cities within Egypt:</h3>
+    <ul>
+        <a href="cairo.html">Cairo</a>
+        <a href="giza.html">Giza</a>
+        <a href="alex.html">Alexandria</a>
+        <a href="gouna.html">Gouna</a>
+        <a href="luxor.html">Luxor & Aswan</a>
+    </ul> 
+  </footer>
+</body>
+</html>

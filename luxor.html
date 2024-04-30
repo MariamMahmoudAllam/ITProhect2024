@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luxor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\my_project\css\luxor.css">
+</head>
+<body>
+    <div class="import">
+        <div class="search">
+          <span class="search-icon material-symbols-outlin">search</span>
+          <input class="search-input" type="search" placeholder="search">
+      </div>
+        <a href="home.html" target="_parent" id="home">Travel</a>
+        <a href="services.html" target="_parent" id="linkLog">Log in & Sign up</a>
+       <div class="sidebar1" style="display: none;" id="mySidebar">
+        <button onclick="side_close()" class="close">close &times;</button>
+        <header id="enjoy">Enjoy</header>
+        <ul id="side">
+          <li id="link"><a href="alex.html" target="_parent" id="boors">Alexandria</a> </li>
+          <li id="link"><a href="cairo.html" target="_parent" id="boors">Cairo</a> </li>
+          <li id="link"><a href="giza.html" target="_parent" id="boors">Giza</a> </li>
+          <li id="link"><a href="gouna.html" target="_parent" id="boors">Gouna</a> </li>
+          <li id="link"><a href="luxor.html" target="_parent" id="boors">Luxor & Aswan</a> </li>
+        </ul>
+       </div>
+       <div class="sidebar2l">
+        <button class="open" onclick="side_open()">☰</button>
+       </div>
+      </div>
+
+    <header>
+        <h1>Luxor</h1>
+        <h2>Most Famous Places to Visit</h2>
+    </header>
+    <main>
+        <div class="image-container">
+            <a href="https://www.google.com/maps?q=Karnak+Temple+Luxor" target="_blank">
+                <img src="images/WhatsApp Image 2024-04-29 at 4.38.32 PM (2).jpeg" alt="Karnak Temple">
+            </a>
+            <p>Karnak Temple is a vast complex of temples, chapels, pylons,
+                 and other buildings located in Luxor. It is considered one of the largest 
+                 religious complexes in the world. The temple complex was built over many centuries, 
+                 with contributions from various pharaohs, including Ramses II, Amenhotep III, and Tutankhamun. 
+                 The Great Hypostyle Hall, with its massive columns, is one of the most impressive parts of the temple.</p>
+        </div>
+        <div class="image-container">
+            <a href="https://www.google.com/maps?q=Deir+el-Bahari+Luxor" target="_blank">
+                <img src="images/WhatsApp Image 2024-04-29 at 4.38.31 PM.jpeg" alt="Deir el Bahari">
+            </a>
+            <p>Deir el-Bahari, also known as the Temple of Hatshepsut, is a remarkable archaeological site in Luxor,
+                 Egypt. Built around the 15th century BCE, it stands as a tribute to Queen Hatshepsut and the sun god Amun. With its striking
+                terraces and intricate reliefs, the temple combines religious reverence with architectural grandeur, attracting visitors from across the globe to marvel
+                 at its historical significance and beauty.</p>
+        </div>
+        <div class="image-container">
+            <a href="https://www.google.com/maps?q=Valley+of+the+Kings+Luxor" target="_blank">
+                <img src="images/WhatsApp Image 2024-04-29 at 4.38.33 PM.jpeg" alt="Valley of the Kings">
+            </a>
+            <p>The Valley of the Kings is a burial ground for many pharaohs of the New Kingdom period in ancient Egypt. It is famous for the discovery of the tomb of Tutankhamun. The valley contains over 60 tombs, many of which are elaborately decorated with hieroglyphs and paintings depicting scenes from the afterlife. The tomb of Tutankhamun, discovered by Howard Carter in 1922, is one of the most well-preserved and famous tombs in the valley.</p>
+        </div>
+        <div class="image-container">
+            <a href="https://www.google.com/maps?q=Luxor+Temple+Luxor" target="_blank">
+                <img src="images/WhatsApp Image 2024-04-29 at 4.38.31 PM (3).jpeg" alt="Luxor Temple">
+            </a>
+            <p>Luxor Temple is a large Ancient Egyptian temple complex located on the east bank of the Nile River in Luxor. It was constructed during the New Kingdom period. The temple is dedicated to the god Amun and was the center of the Opet Festival, an annual religious celebration. The temple complex features impressive statues, obelisks, and courtyards, including the Avenue of Sphinxes, a long avenue lined with sphinx statues that once connected Luxor Temple with Karnak Temple.</p>
+        </div>
+    </main>
+    <div id="video-container">
+        <iframe width="750" height="315" src="audios/WhatsApp Video 2024-04-29 at 10.58.59 PM (1).mp4" frameborder="0" allowfullscreen></iframe>
+        <p>Warning: Do not watch this. This video will attract you there without you knowing.</p>
+    </div>
+    <p id="aswan">
+        Now , let's go to 
+        <a href="luxor2.html" id="aswan">Aswan</a>
+    </p>
+    <footer id="footer" class="footer">
+        <a class="foot" href="home.html" id="logo">Travel</a>
+        <h3 class="footh">Explore Other Cities within Egypt:</h3>
+        <ul>
+            
+            <a href="cairo.html">Cairo</a>
+            <a href="giza.html">Giza</a>
+            <a href="alex.html">Alexandria</a>
+            <a href="gouna.html">Gouna</a>
+            <a href="luxor.html">Luxor & Aswan</a>
+        </ul>
+      </footer> 
+    <script>
+      function side_open() {
+        document.getElementById("mySidebar").style.display = "block";
+      }
+      
+      function side_close() {
+        document.getElementById("mySidebar").style.display = "none";
+      }
+    </script>
+</body>
+</html>
