@@ -1,0 +1,370 @@
+.sidebar1{
+    position: fixed;
+    bottom: 0px;
+    left :0px;
+    width:250px;
+    height: 100%;
+    background-color:white ;
+    z-index: 10000;
+  }
+  #enjoy{
+    font-size: 33px;
+    color:black;
+    text-align: center;
+    line-height: 70px;
+    user-select: none;
+    background-color:#f7d38c;
+    border-bottom: 1px solid black;
+  }
+  #boors {
+    text-decoration: none;
+    display: block;
+    height:100%;
+    width: 100%;
+    line-height: 70px;
+    font-size: 20px;
+    color:black;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+  }
+  #boors:hover{
+    padding-left: 50px;
+  }
+  #side{
+    list-style-type: none;
+  }
+  .close{
+  display: block;
+    height:50px;
+    width:250px;
+    line-height: 40px;
+    font-size: 33px;
+    color:black;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    background-color: #ffcc66;
+  }
+  .open{
+    font-size: 50px;
+    background-color: #ffcc66;
+    border:0.1px;
+    position: relative;
+    bottom:90px;
+  }
+  .import{
+    position: relative;
+    top:0;
+    width: 100%;
+    height:70px;
+    background-color: #ffcc66;
+  }
+  #linkLog{
+    float:right;
+    position: relative;
+    bottom: 50px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  #linkLog:hover{
+    text-decoration: underline;
+  }
+  #home{
+    position: relative;
+    left:100px;
+    bottom: 40px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  #home:hover{
+    text-decoration: underline;
+  }
+  .search{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background: #f6f6f6;
+    position: relative;
+    left:300px;
+    top:10px;
+  }
+  
+  .search-input{
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#333;
+    margin-left: 24px;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+
+  :root {
+    --background-color-light: #ffffe6;
+    --text-color-light: #000000;
+    --background-color-dark: #000000;
+    --text-color-dark: #ffffe6;
+}
+
+body {
+    background-color: #ffffe6;
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+}
+
+.dark-mode {
+    background-color: #ffffe6;
+    background-color: var(--background-color-dark) !important;
+    color: var(--text-color-dark) !important;
+}
+  
+  h1{
+    text-shadow: 25px 25px #c5c4d0;
+    text-align: center;
+    color: #7c6e7f;
+    font-size: 150px;
+    text-transform:uppercase ;
+    letter-spacing: 10px;
+    font-style: italic;
+}
+.yuy{
+    text-align: center;
+    font-size: 150px;
+    font-style: oblique;
+}
+.by{
+     font-size: 50px;  
+     text-align: center;
+     font-style: italic;
+    background-color: #cfddea;
+    ;
+    height:200px ;
+}
+.place{
+        display:flex;
+        margin: 20px;
+ }
+.place p{
+        font-size: 30px;
+        background-color: #cfddea;
+        line-height: 40px;
+        padding: 10px;
+        display: flex;
+        width: 45%;
+        height: 350px;
+}
+.hello{
+    width: 750px;
+    height: 450px;
+}
+.cy{
+    font-size: 100px;  
+    font-style: inherit;
+   padding-bottom: 20px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.none{
+       display:flex;
+       margin:50px 20px;
+}
+.none p{
+       font-size: 30px;
+       background-color: #b8cbdd;
+       line-height: 40px;
+       padding: 10px;
+       display: flex;
+       width: 45%;
+       height: 350px;
+}
+.back{
+   width: 650px;
+   height: 450px;
+}
+#tty{
+    text-align: center;
+    margin: 30px 150px;
+    width: 60%;
+}
+.oy{
+    font-size: 50px;  
+    text-align: center;
+    font-style: italic;
+   background-color:#a8bbcd ;
+   height:200px ;
+   margin-top:120px ;
+}
+.play{
+       display:flex;
+       margin: 20px;
+}
+.play p{
+       font-size: 30px;
+       background-color: #a8bbcd;
+       line-height: 40px;
+       padding: 10px;
+       display: flex;
+       width: 45%;
+       height: 500px;
+}
+.video{
+   width: 750px;
+   height: 450px;
+}
+.ky{
+    font-size: 80px;  
+    font-style: italic;
+    text-align: center;
+}
+.pl{
+       display:flex;
+       margin: 20px;
+}
+.pl p{
+       font-size: 30px;
+       background-color: #9dbad4;
+       line-height: 40px;
+       padding: 10px;
+       display: flex;
+       width: 45%;
+}
+.rr{ 
+    height: 650px;
+}
+.yy{
+    height: 450;
+}
+.tall{
+   width: 750px;
+   height: 450px;
+}
+.er
+{
+    font-size: 30px;
+       background-color: #9dbad4;
+       line-height: 40px;
+       padding: 10px;
+       width: 45%;
+       height: 400px; 
+       margin: 20px;
+}
+.ar{
+    font-size: 50px;  
+    font-style: italic;
+    background-color: #9dbad4;
+    height: 100px;
+}
+.gi{
+    width: 80%;
+    margin-left: 10%;
+}
+.uuu{
+    margin: 30px;
+}
+.ir img{
+    width: 340px;
+    height: 300px;
+}
+div.ir{
+    margin: 10px;
+    width: 340px;
+    border: 1px solid black;
+    float: left;
+}
+.pr{
+    text-align: center;
+}
+.ddr{
+    clear: both;
+}
+.jr{
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+}
+footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:#ffcc66 ;
+  background: var(--nav-color);
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 -.5rem 1rem rgba(0, 0, 0, .1);
+  z-index: 1000;
+  margin-top:900px;
+}
+
+
+.footer .foot {
+  font-size: 3rem;
+  color: var(--dark-text-color);
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.footer .footh{
+  font-size: 2rem;
+  color: var(--light-text-color);
+  font-weight: bolder;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column; 
+  align-items: left; 
+  left: 3px;
+}
+
+.footer ul a {
+  color: var(--btn-bg-color);
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 0.5rem 0; /* Add margin for spacing */
+}
+
+.footer ul a:hover{
+  text-decoration: underline;
+}
+.lr{
+    margin: 50px; 
+    display: block;
+}
+.zr img {
+    width: 340px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+}
+.apple{
+    clear: both;
+}
+.hhh{
+    width: 80%;
+    margin-left: 10%;
+}
+#touristPlaceForm{
+    text-align: center;
+    font-size: 80px;
+
+}
+.zoo{
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+}
